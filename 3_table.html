@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 
-<head>
+<html>
 
+<head>
+    <style type="text/css">
+        thead {
+            color: green;
+        }
+
+        tbody {
+            color: blue;
+        }
+
+        tfoot {
+            color: red;
+        }
+    </style>
 </head>
 
-<body>
-    <a href="https://c.runoob.com/front-end/"> table generator
-    </a>
+<body><a href="https://c.runoob.com/front-end/">table generator </a>
     <p>
     <table border="1">
-        <tbody>
+        <thead>
             <tr>
-                <th>header1</th>
+                <th><a href="https://c.runoob.com/front-end/">table generator</a></th>
                 <th>header2</th>
                 <th>header3</th>
                 <th>header4</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
-                <td>1,1</td>
-                <td>1,2</td>
-                <td>1,3</td>
-                <td>1,4</td>
-            </tr>
-            <tr>
-                <td>2,1</td>
-                <td>2,2</td>
-                <td>2,3</td>
-                <td>2,4</td>
+                <td>1,
+                    1</td>
+                <td>1,
+                    2</td>
+                <td>1,
+                    3</td>
+                <td>1,
+                    4</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td>2,
+                    1</td>
+                <td>2,
+                    2</td>
+                <td>2,
+                    3</td>
+                <td>2,
+                    4</td>
+            </tr>
+        </tfoot>
         <colgroup>
-            <col>
-            <col>
+            <col span="1" style="background-color: beige;">
+            <col span="2" style="background-color: aqua ;width: 45pc;">
             <col>
             <col>
         </colgroup>
     </table>
     </p>
 </body>
+
+</html>
