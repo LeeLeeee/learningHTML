@@ -1,2 +1,2 @@
 # learningHTML
-my first attemp to learning HTML
+my first attempt to learning HTML
