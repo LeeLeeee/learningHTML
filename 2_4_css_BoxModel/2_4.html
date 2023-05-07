@@ -30,6 +30,10 @@ Content(内容) - 盒子的内容，显示文本和图像
 
         }*/
 
+        p:first-letter {
+            color: red;
+        }
+
         p.invisiable {
             visibility: hidden;
         }
@@ -65,16 +69,23 @@ Content(内容) - 盒子的内容，显示文本和图像
             position: absolute;
             clip: rect(0px, 60px, 200px, 0px);
         }
+
+        h1::after {
+            content:
+                /**/
+            ;
+        }
     </style>
 </head>
 
 <body>
+    <h1>title</h1>
     <div>
         <p>hello world</p>
         <!--<p class="pos_fixed">hello world2</p>-->
         <p class="invisiable">hello world3</p>
         <p class="absolute">hello world4</p>
-        <p></p>
+        <p> hello <i>world</i>5</p>
     </div>
 
     <img src="Hello_Blue_1.jpg" width="120" height="120" />
