@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="GB2312">
+</head>
+
+<body>
+
+    <script>
+        document.write("Hello World!")
+    </script>
+    <p id="demo">
+        What's this</p>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        }
+    </script>
+    <script>
+        function myStyle() {
+            document.getElementById("demo").style.color = "#FFAAAA";
+        }
+    </script>
+
+    <button type="button" onclick="myFunction()">click this</button>
+    <button type="button" onclick="myStyle()">and this</button>
+
+</body>
+
+</html>
