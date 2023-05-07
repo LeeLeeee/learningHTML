@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+Margin(外边距) - 清除边框外的区域，外边距是透明的。
+Border(边框) - 围绕在内边距和内容外的边框。
+Padding(内边距) - 清除内容周围的区域，内边距是透明的。
+Content(内容) - 盒子的内容，显示文本和图像
+-->
+
+<head>
+    <meta charset="GB2312">
+    <style>
+        div {
+            background-color: lightgrey;
+            width: 300px;
+            border: 25px solid green;
+            padding: 25px;
+            /*transparent*/
+            margin-top: 100px;
+            margin-left: 20px;
+        }
+
+        /*p {
+            border-style: dashed;
+            border-width: 5px;
+            border-color: blueviolet;
+            outline-style: double;
+            outline-width: 4px;
+
+        }*/
+
+        p.invisiable {
+            visibility: hidden;
+        }
+
+        p.pos_fixed {
+            position: fixed;
+            top: 30px;
+            right: 55px;
+        }
+
+        p.absolute {
+            position: absolute;
+            left: 40px;
+        }
+
+        div.sticky {
+            position: -webkit-sticky;
+            /* Safari */
+            position: sticky;
+            top: 0;
+            background-color: green;
+            border: 2px solid #4CAF50;
+        }
+
+        div.floating {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1
+        }
+
+        img {
+            position: absolute;
+            clip: rect(0px, 60px, 200px, 0px);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>hello world</p>
+        <!--<p class="pos_fixed">hello world2</p>-->
+        <p class="invisiable">hello world3</p>
+        <p class="absolute">hello world4</p>
+        <p></p>
+    </div>
+
+    <img src="Hello_Blue_1.jpg" width="120" height="120" />
+
+</body>
+
+</html>

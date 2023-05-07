@@ -1,0 +1,65 @@
+body {
+    /*background-color: #d0e4fe;*/
+    background-image: url('Hello_Blue_1.jpg');
+    background-repeat: repeat;
+
+}
+
+h1 {
+    color: darkorchid;
+    text-align: center;
+    /**/
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: crimson;
+}
+
+p.mains {
+    text-align: left;
+    text-indent: 20px;
+    letter-spacing: 1px;
+    line-height: 160%;
+}
+
+p.date {
+    text-align: right;
+}
+
+#secondTitle {
+    font-family: Roboto;
+    font-size: 42px;
+    color: darkgreen;
+}
+
+.center {
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.green {
+    color: green;
+    text-shadow: 2px 2px darkgreen;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+a:link,
+a:visited {
+    display: block;
+    background-color: bisque;
+    text-align: center;
+    width: 120px;
+    padding: 4px;
+    color: #000000;
+}
+
+a:hover,
+a:active {
+    background-color: blue;
+}
